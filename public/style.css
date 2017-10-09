@@ -1,0 +1,80 @@
+body {
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.9)),
+    #576f96;
+  color: white;
+  font-family: "Noto Serif";
+  text-align: center;
+}
+
+img {
+  padding: 15px 0px;
+}
+
+#rules {
+  margin: 60px 0px;
+}
+
+#navigation {
+  list-style-type: none;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.nav_link {
+  border: 1px solid grey;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.nav_link:hover {
+  background: grey;
+}
+
+
+ul {
+  text-align: left;
+}
+
+#result {
+  margin-top: 300px;
+}
+
+
+#rock {
+  background-image: url("images/rock.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+  height: 20em;
+  margin: auto;
+  width: 16em;
+}
+
+#rock:hover {
+  background-image: url("images/the_rock.png");
+}
+
+#paper {
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+  height: 15em;
+  margin: auto;
+  width: 16em;
+}
+
+#scissors {
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+  height: 14em;
+  margin: auto;
+  width: 16em;
+}
