@@ -1,3 +1,12 @@
+<% if @winning_choice == 'rock'
+  @img_src = "../images/rock.png"
+elsif @winning_choice == 'paper'
+  @img_src = "../images/paper.png"
+else @winning_choice == 'scissors'
+  @img_src = "../images/scissors.png"
+end %>
+
+<img id="winning_choice" src=<%= @img_src %> />
 <h1 id="result">The winner is <%= @winner %> with <%= @winning_choice %>.</h1>
 <nav>
   <ul id="navigation">
